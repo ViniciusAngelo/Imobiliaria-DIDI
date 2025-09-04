@@ -5,7 +5,7 @@ import { Textarea } from '@/components/ui/textarea.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
 import { Search, Menu, X, Home, Building, MapPin, Phone, Mail, MessageCircle, Instagram, Facebook, MessageSquare, Bed, Bath } from 'lucide-react'
-import {logodidi} from './assets/logodidi.png';
+import logodidi from './assets/logodidi.avif';
 import './App.css'
 
 function App() {
@@ -176,14 +176,14 @@ function App() {
       {/* Hero Section */}
       <section id="inicio" className="hero-section py-20 text-center">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="mb-8">
-              <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-12 h-12 text-primary-foreground" />
-              </div>
-              <h1 className="didi-logo text-6xl font-bold text-foreground mb-2">DIDI</h1>
-              <p className="text-lg text-muted-foreground mb-4">CONSULTORIA E NEGÓCIOS IMOBILIÁRIOS</p>
-              <p className="text-2xl text-foreground font-medium">Credibilidade tem nome</p>
+            <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-5">
+              <img src={logodidi} alt="Logo DIDI" className="w-full h-full object-contain" />
+            </div>
+            <h1 className="didi-logo text-7xl font-bold text-foreground mb-2 ">DIDI</h1>
+            <p className="text-lg text-muted-foreground mb-4">CONSULTORIA E NEGÓCIOS IMOBILIÁRIOS</p>
+
             </div>
             
             <div className="section-divider"></div>
