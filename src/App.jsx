@@ -5,6 +5,7 @@ import { Textarea } from '@/components/ui/textarea.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
 import { Search, Menu, X, Home, Building, MapPin, Phone, Mail, MessageCircle, Instagram, Facebook, MessageSquare, Bed, Bath } from 'lucide-react'
+import {logodidi} from './assets/logodidi.png';
 import './App.css'
 
 function App() {
@@ -103,9 +104,9 @@ function App() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2 header-logo">
-              <div className="w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center">
-                <Building className="w-4 h-4 md:w-6 md:h-6 text-primary-foreground" />
-              </div>
+            <div className="w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center">
+              <img src={didiLogoImage} alt="Logo DIDI" className="w-full h-full object-contain" />
+             </div>
               <div className="didi-logo">
                 <div className="text-lg md:text-xl font-bold text-foreground">DIDI</div>
                 <div className="text-xs hidden md:block text-muted-foreground">CONSULTORIA E NEGÓCIOS IMOBILIÁRIOS</div>
