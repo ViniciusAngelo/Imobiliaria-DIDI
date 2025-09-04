@@ -105,7 +105,7 @@ function App() {
             {/* Logo */}
             <div className="flex items-center space-x-2 header-logo">
             <div className="w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center">
-              <img src={didiLogoImage} alt="Logo DIDI" className="w-full h-full object-contain" />
+              <img src={logodidi} alt="Logo DIDI" className="w-full h-full object-contain" />
              </div>
               <div className="didi-logo">
                 <div className="text-lg md:text-xl font-bold text-foreground">DIDI</div>
